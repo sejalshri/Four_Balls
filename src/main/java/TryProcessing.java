@@ -4,10 +4,10 @@ public class TryProcessing extends PApplet{
 
     public static final int WIDTH = 500;
     public static final int HEIGHT = 500;
-    int x=0;
-    int y=0;
-    int z=0;
-    int m=0;
+    int x1=0;
+    int x2=0;
+    int x3=0;
+    int x4=0;
 
     @Override
     public void settings() {
@@ -17,14 +17,14 @@ public class TryProcessing extends PApplet{
 
     @Override
     public void draw() {
-        ellipse(x,HEIGHT/5,20,20);
-        ellipse(y,(HEIGHT*2)/5,20,20);
-        ellipse(z,(HEIGHT*3)/5,20,20);
-        ellipse(m,(HEIGHT*4)/5,20,20);
-        x++;
-        y=y+2;
-        z=z+3;
-        m=m+4;
+        ellipse(x1,HEIGHT/5,20,20);
+        ellipse(x2,(HEIGHT*2)/5,20,20);
+        ellipse(x3,(HEIGHT*3)/5,20,20);
+        ellipse(x4,(HEIGHT*4)/5,20,20);
+        x1+=1;
+        x2+=2;
+        x3+=3;
+        x4+=4;
         //super.draw();
     }
 
